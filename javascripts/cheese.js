@@ -1,0 +1,1 @@
+var cheesePrices = {"cheddar": 2.00, "provolone": 2.25, "pepperjack": 1.50, "no-cheese": 0}

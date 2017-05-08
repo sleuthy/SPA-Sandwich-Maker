@@ -1,6 +1,6 @@
 console.log("sandwich maker js works.");
 
-var SandwichMaker = (function() {
+var SandwichMaker = (function(sandwich) {
 
   // Private variable to store the price
   var totalPrice = 0;
