@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandwich Maker</title>
+</head>
+<body>
+	<header>
+		<h1>Make Your Sandwich</h1>
+	</header>
+<article id="userinput">
+	<section id="user-options">
+		<p>Bread:</p>
+		<input type="radio" name="bread" value="sourdough">sourdough
+		<input type="radio" name="bread" value="wholewheat">whole wheat
+		<input type="radio" name="bread" value="gluten-free">gluten-free flatbread
+		<input type="radio" name="bread" value="no-bread">no bread
+
+		<p>Protein:</p>
+		<input type="checkbox" name="protein" value="chicken">organic chicken
+		<input type="checkbox" name="protein" value="turkey">thin-sliced turkey
+		<input type="checkbox" name="protein" value="tofu">marinated tofu
+		<input type="checkbox" name="protein" value="no-protein">no protein
+
+		<p>Cheese:</p>
+		<input type="checkbox" name="cheese" value="cheddar">cheddar
+		<input type="checkbox" name="cheese" value="provolone">provolone
+		<input type="checkbox" name="cheese" value="pepperjack">pepper jack
+		<input type="checkbox" name="cheese" value="no-cheese">no cheese
+
+		<p>Condiments:</p>
+		<input type="checkbox" name="condiment" value="spicymustard">spicy mustard
+		<input type="checkbox" name="condiment" value="honeymustard">honey mustard
+		<input type="checkbox" name="condiment" value="mayo">mayo
+		<input type="checkbox" name="condiment" value="no-condiment">no condiments
+
+		<p>Veggies:</p>
+		<input type="checkbox" name="veggie" value="tomato">tomato
+		<input type="checkbox" name="veggie" value="lettuce">lettuce
+		<input type="checkbox" name="veggie" value="bananapeppers">banana peppers
+		<input type="checkbox" name="veggie" value="no-veggie">no veggies
+
+		<br>
+		<button>Make It!</button>
+	</section>
+</article>
+
+<hr>
+
+<article id="outputs">
+	<h1>Here it is!</h1>
+
+	<section>
+		<div id="sandwich-constructor">
+			<div id="bread"></div>
+			<div id="protein"></div>
+			<div id="cheese"></div>
+			<div id="condiments"></div>
+			<div id="veggies"></div>
+			<br>
+			<div id="total"></div>
+		</div>
+	</section>
+</article>
+
+	<script src="javascripts/SandwichMaker.js" type="text/javascript"></script>
+	<script src="javascripts/DOMHandler.js" type="text/javascript"></script>
+	<script src="javascripts/Meat.js" type="text/javascript"></script>
+
+</body>
+</html>
