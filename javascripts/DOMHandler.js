@@ -1,3 +1,4 @@
+"use strict";
 console.log("DOMHandler.js works.");
 
 // Variable to hold the final price. Default to 0.
