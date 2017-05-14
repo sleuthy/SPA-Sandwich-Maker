@@ -4,9 +4,9 @@ var finalMeatPrice = 0
 var MeatChoice = "";
 
 // This SandwichMaker IIFE augments the original one
-var SandwichMaker = (function(maker) {
-  // Private variable to store the different meat prices
-  var meatPrices = {"chicken": 2.00, "turkey": 2.25, "tofu": 1.50, "no-protein": 0}
+var SandwichMaker = (function(sandwich) {
+  // Private variable to store the different protein prices
+var meatPrices = {"chicken": 2.00, "turkey": 2.25, "tofu": 1.50, "no-protein": 0};
 
   sandwich.addMeat = function(value) {
           var userMeatInput = value;
